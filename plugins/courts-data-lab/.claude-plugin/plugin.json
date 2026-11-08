@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "courts-data-lab",
+  "version": "0.1.0",
+  "description": "Search Indian court cases, read hearing histories and court orders, and cite them correctly, through the Courts Data Lab MCP server.",
+  "author": { "name": "Professeer", "url": "https://courtsdaily.info" },
+  "homepage": "https://api-docs.courtsdaily.info",
+  "repository": "https://github.com/professeer/courts-data-lab-plugin",
+  "license": "LicenseRef-Professeer",
+  "keywords": ["india", "courts", "legal-research", "case-law", "mcp"],
+  "documentationUrl": "https://api-docs.courtsdaily.info",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Courts Data Lab API key",
+      "description": "Your Courts Data Lab key (starts with cdl_live_). Create it at https://api-docs.courtsdaily.info/key.",
+      "sensitive": true
+    }
+  }
+}

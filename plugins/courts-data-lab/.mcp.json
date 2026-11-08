@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "courts-data-lab": {
+      "type": "http",
+      "url": "https://api.courtsdaily.info/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_key}" }
+    }
+  }
+}

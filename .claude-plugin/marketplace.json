@@ -1,0 +1,13 @@
+{
+  "name": "courts-data-lab",
+  "owner": { "name": "Professeer", "url": "https://courtsdaily.info" },
+  "description": "Courts Data Lab plugins: read-only Indian court case data for Claude.",
+  "plugins": [
+    {
+      "name": "courts-data-lab",
+      "source": "./plugins/courts-data-lab",
+      "description": "Search Indian court cases, read hearing histories and court orders, and cite them correctly, through the Courts Data Lab MCP server.",
+      "version": "0.1.0"
+    }
+  ]
+}
